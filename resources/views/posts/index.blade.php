@@ -15,6 +15,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
         @endforeach
         {{$posts->links()}}
     @else

@@ -9,6 +9,7 @@
 
                 <div class="card-body">
                     <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                    <br>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
